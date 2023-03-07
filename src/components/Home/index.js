@@ -3,16 +3,19 @@ import { Link } from "react-router-dom";
 import LogoTitle from "../../assets/images/My_Logo_C.png";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
+import Logo from "./Logo";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = ["h", "o", "z", "y", "n"];
+  const nameArray = ["h", "o", "z", "y", "n,"];
   const jobArray = [
-    "w",
+    "A",
+    " ",
+    "W",
     "e",
     "b",
     " ",
-    "d",
+    "D",
     "e",
     "v",
     "e",
@@ -58,6 +61,7 @@ const Home = () => {
           Contact me
         </Link>
       </div>
+      <Logo />
     </div>
   );
 };
