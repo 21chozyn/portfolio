@@ -5,6 +5,7 @@ import gsap from "gsap-trial";
 import React, { useEffect, useRef } from "react";
 
 const Logo = () => {
+  var x = window.matchMedia("(max-width: 800px)");
   const bgRef = useRef();
   const outlineLogoRef = useRef();
   const solidLogoRef = useRef();
@@ -23,7 +24,7 @@ const Logo = () => {
       .fromTo(
         solidLogoRef.current,
         { opacity: 0 },
-        { opacity: 1, duration: 2 }
+        { opacity: x.matches ? 0.7 : 1, duration: 2 }
       );
   }, []);
   return (

@@ -33,7 +33,7 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
-.about-page {
+.about-page,.contact-page {
   .text-zone {
     position: absolute;
     left: 10%;
@@ -102,5 +102,27 @@
             
         }
     }
+  }
+}
+@media (width > 1200px) {
+}
+@media (1025px < width < 1200px) {
+  .tags{
+    left: 110px;
+  }
+}
+@media (769px < width < 1024px) {
+  .tags{
+    left: 100px;
+  }
+}
+@media (481px < width < 768px) {
+  .tags{
+    left: 90px;
+  }
+}
+@media (320px < width < 480px) {
+  .tags{
+    left: 80px;
   }
 }

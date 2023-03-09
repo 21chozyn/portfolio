@@ -1,5 +1,5 @@
 .logo-container{
-    z-index: 0;
+    z-index: -1;
     width: 400px;
     height: 609px;
     position: absolute;
@@ -33,4 +33,48 @@ svg{
     stroke: #ffcd00; 
     stroke-width: 1px;
     
+}
+@media (width > 1200px) {
+    .logo-container  {
+        width: 450px ;
+        top: 25%;
+        right: 10%;
+    }
+}
+@media (1025px < width < 1200px) {
+    .logo-container {
+        width: 375px;
+        top: 30%;
+        right: 7%;
+    }
+}
+@media (769px < width < 1024px) {
+    .logo-container {
+        width: 350px;
+        top: 30%;
+    }
+    .home-page .text-zone {
+        width: 60%;
+    }
+}
+@media (481px < width < 768px) {
+    .logo-container {
+        width: 300px;
+        top: 30%;
+    }
+    .home-page .text-zone {
+        width: 65%;
+        left: 15%;
+    }
+}
+@media (320px < width < 480px) {
+    .logo-container {
+        width: 250px;
+        top: 30%;
+        opacity: 0.7;
+    }
+    .home-page .text-zone {
+        width: 75%;
+        left: 20%;
+    }
 }

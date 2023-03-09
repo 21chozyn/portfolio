@@ -78,3 +78,26 @@ h2{
     }
 
 }
+@media (width > 1200px) {
+    .logo-container {
+        width: 450px;
+        top: 35%;
+        right: 10%;
+    }
+}
+@media (1025px < width < 1200px) {
+    .logo-container {
+        width: 375px;
+        top: 30%;
+        right: 7%;
+    }
+}
+@media (769px < width < 1024px) {
+
+}
+@media (481px < width < 768px) {
+
+}
+@media (320px < width < 480px) {
+
+}
