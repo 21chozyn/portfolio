@@ -127,7 +127,7 @@ ul {
     line-height: 30px;
 }
 }
-@media (1025px < width < 1200px) {
+@media (1025px <= width <= 1200px) {
   .nav-bar {
     width: 80px;
   }
@@ -141,7 +141,7 @@ ul {
     line-height: 27px;
 }
 }
-@media (769px < width < 1024px) {
+@media (769px <= width <= 1024px) {
   .nav-bar {
     width: 70px;
   }
@@ -155,7 +155,7 @@ ul {
     line-height: 24px;
 }
 }
-@media (481px < width < 768px) {
+@media (481px <= width <= 768px) {
   .nav-bar {
     width: 65px;
   }
@@ -169,7 +169,7 @@ ul {
     line-height: 20px;
 }
 }
-@media (320px < width < 480px) {
+@media (320px <= width <= 480px) {
   .nav-bar {
     width: 60px;
   }

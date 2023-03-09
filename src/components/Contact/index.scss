@@ -104,3 +104,167 @@ opacity: 0;
 animation: backInRight 1s 1.2s;;
 animation-fill-mode: forwards;
 }
+@media (width >= 1201px) {
+  .contact-page .text-zone {
+    left: 12%;
+    top: 9%;
+    transform: none;
+}
+.contact-form form ul{
+  bottom: auto;
+  left: -5%;
+}
+.info-map{
+  right: 5px;
+}
+.map-wrap{
+  width: 50%;
+}
+}
+@media (1025px <= width <= 1200px) {
+  .contact-page .text-zone {
+    left: 12%;
+    top: 9%;
+    transform: none;
+}
+.contact-form form ul{
+  bottom: auto;
+  left: -5%;
+}
+.info-map{
+  right: 5px;
+  width: 200px;
+  top: 25px;
+}
+.map-wrap{
+  width: 50%;
+}
+}
+@media (769px <= width <= 1024px) {
+  .contact-page .text-zone {
+    left: 12%;
+    top: 9%;
+    transform: none;
+}
+.contact-form form ul{
+  bottom: auto;
+  left: -5%;
+}
+.info-map{
+  right: 0;
+  width: 200px;
+  top: 0;
+}
+.map-wrap{
+  width: 50%;
+}
+.contact-page .text-zone h1{
+  font-size: 40px;
+}
+p{
+  font-size: 10px;
+}
+}
+@media (481px <= width <= 768px) {
+  .contact-page .text-zone {
+    left: 20%;
+    top: 5%;
+    transform: none;
+    width: 75%;
+}
+.contact-form form ul .half {
+  width: 48%;
+  margin-left: 0;
+  margin-right: 5px;
+}
+.contact-form form ul{
+  bottom: auto;
+  left: -5%;
+}
+.info-map{
+  right: 0;
+  width: 150px;
+  height: 75px;
+  top: 0;
+  font-size: 12px;
+  padding: 10px;
+}
+.info-map span {
+  font-size: 10px;
+  display: block;
+  padding-top: 5px;
+  color: #ffd700;
+}
+.map-wrap{
+  position: absolute;
+  right: 2%;
+  width: 80%;
+  height: 40%;
+  bottom: 2%;
+}
+.contact-page .text-zone h1{
+  font-size: 40px;
+}
+.contact-form form ul .btn{
+  position: absolute;
+  top: 70%;
+}
+p{
+  font-size: 10px;
+}
+}
+@media (320px <= width <= 480px) {
+  .contact-page .text-zone {
+    left: 23%;
+    top: 5%;
+    transform: none;
+    width: 75%;
+    h1{
+      font-size: 30px !important;
+    }
+}
+.contact-form form ul .half {
+  width: 48%;
+  margin-left: 0;
+  margin-right: 5px;
+}
+.contact-form form ul{
+  bottom: auto;
+  left: -5%;
+}
+.info-map{
+  right: 0;
+  width: 150px;
+  height: 75px;
+  top: 0;
+  font-size: 12px;
+  padding: 10px;
+}
+.info-map span {
+  font-size: 10px;
+  display: block;
+  padding-top: 5px;
+  color: #ffd700;
+}
+.map-wrap{
+  position: absolute;
+  right: 2%;
+  width: 80%;
+  height: 40%;
+  bottom: 3%;
+}
+.contact-page .text-zone h1{
+  font-size: 40px;
+}
+.contact-form form ul .btn{
+  position: absolute;
+  top: 60%;
+}
+.contact-form textarea{
+  min-height: 100px;
+  font-size: 14px;
+}
+.contact-form input{
+  font-size: 14px !important;
+}
+}

@@ -40,7 +40,7 @@ const Logo = () => {
       >
         <g
           className="svg-container"
-          transform="translate(-10 80) scale(6 6)"
+          transform="translate(-10 82) scale(6 6)"
           fill="none"
         >
           <path
