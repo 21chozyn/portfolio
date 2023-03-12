@@ -16,6 +16,7 @@ const Contact = () => {
   const emailAddressTxtBox = useRef();
   const subjectTxtBox = useRef();
   const messageTxtBox = useRef();
+
   const handleSend = () => {
     window.Email.send({
       Host: "smtp.elasticemail.com",
@@ -27,11 +28,11 @@ const Contact = () => {
       Body: `Name: ${nameTxtBox.current.value} \nE-mail-Addrress: ${emailAddressTxtBox.current.value} \n\n${messageTxtBox.current.value}`,
     })
       .then((message) => alert("Message sent successfully"))
-      .then();
-    nameTxtBox.current.value = "";
-    emailAddressTxtBox.current.value = "";
-    messageTxtBox.current.value = "";
-    subjectTxtBox.current.value = "";
+    //   .then();
+    // nameTxtBox.current.value = "";
+    // emailAddressTxtBox.current.value = "";
+    // messageTxtBox.current.value = "";
+    // subjectTxtBox.current.value = "";
   };
   return (
     <>
@@ -84,7 +85,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li className="btn">
-                  <input type="submit" className="flat-button" value="SEND"  onClick={handleSend}/>
+                  <input type="submit" className="flat-button" value="SEND" onSubmit={handleSend}/>
                 </li>
               </ul>
             </form>

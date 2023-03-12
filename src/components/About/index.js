@@ -55,7 +55,7 @@ const About = () => {
             with you on your next project and to bring my expertise and
             enthusiasm to the table.
           </p>
-        </div>
+        </div> 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">

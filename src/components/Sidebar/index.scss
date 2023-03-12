@@ -77,6 +77,11 @@
         content: "ABOUT";
       }
     }
+    a.projects-link{
+      &::after {
+        content: "PROJECTS";
+      }
+    }
     a.contact-link {
       &::after {
         content: "CONTACT";
@@ -126,10 +131,16 @@ ul {
     font-size: 25px;
     line-height: 30px;
 }
+.nav-bar nav{
+  top: 45%;
+}
 }
 @media (1025px <= width <= 1200px) {
   .nav-bar {
     width: 80px;
+  }
+  .nav-bar nav{
+    top: 45%;
   }
   .nav-bar nav a {
     font-size: 35px;

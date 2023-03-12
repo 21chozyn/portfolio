@@ -1,0 +1,134 @@
+.projects-container {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  padding-top: 18%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+@keyframes spinProjects {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  50% {
+    transform: rotateY(90deg);
+  }
+}
+.projects-spinner {
+  animation-name: spinProjects !important;
+  animation: timing-function ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  transform-style: preserve-3d;
+  transform-origin: 100px 100px 0;
+  margin-left: calc(50% - 100px);
+
+  .project1 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px lightyellow;
+  }
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+.no-project-animation {
+  opacity: 0;
+  animation: bounceIn 1s 0.5s;
+  animation-fill-mode: forwards;
+  transform-origin: 100px 100px 0;
+  margin-left: calc(50% - 100px);
+  .project1 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px lightyellow;
+    scale: 1.1;
+    img {
+      width: 300px;
+      height: 200px;
+    }
+  }
+}
+@media (width >= 1201px) {
+  .text-zone {
+    width: 40%;
+  }
+}
+@media (1025px <= width <= 1200px) {
+  .projects-container{
+    top: 13%;
+   
+  }
+}
+@media (769px <= width <= 1024px) {
+  .projects-container{
+    top: 15%;
+    right: 50px;
+  }
+}
+@media (481px <= width <= 768px) {
+  .text-zone h1 {
+    font-size: 45px;
+  }
+  .projects-page .text-zone {
+    left: 22%;
+    width: 75%;
+    transform: initial;
+    top: 7%;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 8.5px;
+    }
+  }
+  .projects-container {
+    width: 100%;
+    left: -5%;
+    height: 50%;
+    top: auto;
+    bottom: -7%;
+  }
+}
+@media (320px <= width <= 480px) {
+  .text-zone h1 {
+    font-size: 40px;
+  }
+  .projects-page .text-zone {
+    left: 23%;
+    width: 70%;
+    transform: initial;
+    top: 10%;
+    h1 {
+      font-size: 35px;
+    }
+  }
+  .projects-container {
+    width: 100%;
+    left: -5%;
+    height: 50%;
+    top: auto;
+    bottom: -7%;
+  }
+}

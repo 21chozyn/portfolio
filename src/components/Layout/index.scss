@@ -33,7 +33,7 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
-.about-page,.contact-page {
+.about-page,.contact-page ,.projects-page{
   .text-zone {
     position: absolute;
     left: 10%;
@@ -105,7 +105,7 @@
   }
 }
 @media (width >= 1201px) {
-  .about-page, .contact-page .text-zone
+  .about-page, .contact-page,.projects-page .text-zone
   h1{
     font-size: 80px;
   }
@@ -153,7 +153,7 @@
   .tags{
     left: 80px;
   }
-  .about-page, .contact-page .text-zone
+  .about-page, .contact-page ,.projects-page .text-zone
   h1{
     font-size: 40px;
   }
