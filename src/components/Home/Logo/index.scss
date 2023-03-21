@@ -28,6 +28,7 @@ svg{
     opacity: 0;
     transform: rotateZ(30deg);
     z-index: 1;
+    animation: fadeIn 3s 3s forwards;
 }
 .svg-container{
     stroke: #ffcd00; 
