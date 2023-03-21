@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
-import PodcastPhoto from "../../assets/images/TheRez.png" 
+import PodcastPhoto from "../../assets/images/TheRez.jpg";
 
 import "./index.scss";
 import Tip from "../Tip";
@@ -10,7 +10,7 @@ const Projects = () => {
   const projectText = {
     Project1: {
       Heading: "Podcast Web App",
-      Text: "This is my full stack web app project created with React and Django Frameworks. Users can listen to podcasts and rate the podcast for the next user to be recommended better content, that is of course if they are signed in.",
+      Text: "This is my full stack web app project created with React and Django Frameworks. Users can listen to the latest podcasts and contact the podcaster",
     },
   };
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -19,7 +19,6 @@ const Projects = () => {
 
   const handleHover = () => {
     setClassName("no-project-animation");
-
   };
   const handleMousLeave = () => {
     setClassName("projects-spinner");
@@ -66,7 +65,9 @@ const Projects = () => {
             onMouseOver={handleHover}
             onMouseLeave={handleMousLeave}
           >
-            <div className="project1"><img src={PodcastPhoto} alt="Podcast Website" /></div>
+            <div className="project1">
+              <img src={PodcastPhoto} alt="Podcast Website" />
+            </div>
           </div>
         </div>
       </div>
