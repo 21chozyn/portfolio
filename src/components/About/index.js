@@ -31,7 +31,7 @@ const About = () => {
             />
           </h1>
           <p>
-            My full name is Panashe Mhonde and as a full stack developer with
+            My full name is Joey Mhonde and as a full stack developer with
             experience in Django, Python, React, JavaScript, HTML, and CSS, I am
             passionate about creating innovative and user-friendly web
             applications. Whether it's building dynamic web pages, optimizing

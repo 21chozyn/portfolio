@@ -94,14 +94,14 @@ const Contact = () => {
 
         <div className="map-wrap">
           <div className="info-map">
-            Panashe Mhonde,
+            Joey Mhonde,
             <br />
             Zimbabwe,
             <br />
             6th Str, 320
             <br />
             Sisk, Masvingo <br />
-            <span>panashemhondeh@gmail.com</span>
+            <span>joeymhondeh@gmail.com</span>
           </div>
           <MapContainer center={location} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
